@@ -1,0 +1,509 @@
+@import '../base/mixins/theme-variables';
+
+// font
+// font face
+// @font-face {
+//   font-family: 'ScProsperSans';
+//   src: url('../../../fonts/SCProsperSansBold.otf');
+//   src: url('../../../fonts/SCProsperSansMedium.otf');
+//   src: url('../../../fonts/SCProsperSansRegular.otf');
+// }
+
+// body {
+//   font-family: 'ScProsperSans', sans-serif !important;
+// }
+
+@font-face {
+  font-family: 'SCProsperSansBold';
+  src: local('SCProsperSansBold'), url('../../../fonts/SCProsperSansBold.otf') format('opentype');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'SCProsperSansMedium';
+  src: local('SCProsperSansMedium'),
+    url('../../../fonts/SCProsperSansMedium.otf') format('opentype');
+  font-weight: medium;
+}
+@font-face {
+  font-family: 'SCProsperSansRegular';
+  src: local('SCProsperSansRegular'),
+    url('../../../fonts/SCProsperSansRegular.otf') format('opentype');
+  font-weight: medium;
+}
+
+.fonts-600 {
+  font-family: 'SCProsperSansBold';
+}
+
+.fonts-500 {
+  font-family: 'SCProsperSansMedium';
+}
+.fonts-400 {
+  font-family: 'SCProsperSansRegular';
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+p {
+  margin: 0px !important;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.w-33 {
+  width: 33%;
+}
+
+.w-25 {
+  width: 25%;
+}
+
+.w-20 {
+  width: 20%;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.h-75 {
+  height: 75%;
+}
+
+.h-50 {
+  height: 50%;
+}
+
+.h-25 {
+  height: 25%;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.font {
+  font-size: 1vw;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+input,
+input:hover,
+input:focus,
+input:active {
+  outline: none !important;
+}
+
+select,
+select:hover,
+select:focus,
+select:active {
+  outline: none !important;
+}
+
+.text-theme,
+.menu-title,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px !important;
+  // @include themify($themes) {
+  //     color: themed("textColor");
+  // }
+}
+
+.text-theme:hover,
+.menu-title:hover {
+  @include themify($themes) {
+    color: themed('hoverTextColor');
+  }
+}
+
+.icon-theme {
+  @include themify($themes) {
+    color: themed('textColor');
+  }
+}
+
+.icon-theme:hover {
+  @include themify($themes) {
+    color: themed('hoverTextColor');
+  }
+}
+
+.bg-uw-primary {
+  @include themify($themes) {
+    background-color: themed('bgColor');
+  }
+}
+
+.bg-uw-primary-50 {
+  @include themify($themes) {
+    background-color: themed('bgColorPrimary50');
+  }
+}
+
+.bg-uw-secondary {
+  @include themify($themes) {
+    background-color: themed('bgColorSecondary');
+  }
+}
+
+.bg-uw-green {
+  @include themify($themes) {
+    background-color: themed('bgGreen');
+  }
+}
+
+.text-uw-primary-50 {
+  @include themify($themes) {
+    color: themed('bgColorPrimary50');
+  }
+}
+
+.text-uw-secondary {
+  @include themify($themes) {
+    color: themed('bgColorSecondary');
+  }
+}
+
+.text-uw-green {
+  @include themify($themes) {
+    color: themed('bgGreen');
+  }
+}
+
+.bg_secondary {
+  background-color: $secondary;
+  // @include themify($themes) {
+  //     background-color: themed("bgColorSecondary");
+  // }
+}
+
+.bg_secondary_85 {
+  background-color: $secondary_85;
+  // @include themify($themes) {
+  //     background-color: themed("bgColorSecondary");
+  // }
+}
+
+.bg_secondary_75 {
+  background-color: $secondary_75;
+  // @include themify($themes) {
+  //     background-color: themed("bgColorSecondary");
+  // }
+}
+
+.bg_secondary_50 {
+  background-color: $secondary_50;
+  // @include themify($themes) {
+  //     background-color: themed("bgColorSecondary");
+  // }
+}
+
+.bg_secondary_35 {
+  background-color: $secondary_35;
+  // @include themify($themes) {
+  //     background-color: themed("bgColorSecondary");
+  // }
+}
+
+.bg_secondary_25 {
+  background-color: $secondary_25;
+  // @include themify($themes) {
+  //     background-color: themed("bgColorSecondary");
+  // }
+}
+
+.bg_secondary_15 {
+  background-color: $secondary_15;
+  // @include themify($themes) {
+  //     background-color: themed("bgColorSecondary");
+  // }
+}
+
+.bg_primary {
+  background-color: $primary;
+  // @include themify($themes) {
+  //     background-color: themed("bgColorSecondary");
+  // }
+}
+
+.bg_primary2 {
+  background-color: $primary2;
+  // @include themify($themes) {
+  //     color: themed("bgColorSecondary");
+  // }
+}
+
+.bg_primary2_75 {
+  background-color: $primary2_75;
+  // @include themify($themes) {
+  //     color: themed("bgColorSecondary");
+  // }
+}
+
+.bg_primary2_50 {
+  background-color: $primary2_50;
+  // @include themify($themes) {
+  //     color: themed("bgColorSecondary");
+  // }
+}
+
+.bg_black_25 {
+  background-color: $black_25;
+  // @include themify($themes) {
+  //     color: themed("bgColorSecondary");
+  // }
+}
+
+.bg_model {
+  background-color: $model_bg;
+  // @include themify($themes) {
+  //     color: themed("bgColorSecondary");
+  // }
+}
+
+.bg_error {
+  background-color: $error;
+  // @include themify($themes) {
+  //     color: themed("bgColorSecondary");
+  // }
+}
+
+.bg_error_40 {
+  background-color: $error_40 !important;
+  // @include themify($themes) {
+  //     color: themed("bgColorSecondary");
+  // }
+}
+
+.text_secondary {
+  color: $secondary;
+  // @include themify($themes) {
+  //     color: themed("bgColorSecondary");
+  // }
+}
+
+.text_secondary_75 {
+  color: $secondary_75;
+  // @include themify($themes) {
+  //     color: themed("bgColorSecondary");
+  // }
+}
+
+.text_secondary_50 {
+  color: $secondary_50;
+  // @include themify($themes) {
+  //     color: themed("bgColorSecondary");
+  // }
+}
+.pure-black {
+  color: #000000 !important;
+}
+.text_primary {
+  color: $primary !important;
+  // @include themify($themes) {
+  //     color: themed("bgColor");
+  // }
+}
+
+.text_black_75 {
+  color: $black_75;
+  // @include themify($themes) {
+  //     color: themed("bgColor");
+  // }
+}
+
+.text_black_85 {
+  color: $black_85;
+  // @include themify($themes) {
+  //     color: themed("bgColor");
+  // }
+}
+
+.text_black_70 {
+  color: $sc_black_70 !important;
+  // @include themify($themes) {
+  //     color: themed("bgColor");
+  // }
+}
+
+.text_black_footer {
+  color: $footer_black !important;
+  // @include themify($themes) {
+  //     color: themed("bgColor");
+  // }
+}
+
+.text_black_50 {
+  color: $black_50;
+  // @include themify($themes) {
+  //     color: themed("bgColor");
+  // }
+}
+
+.text_black_25 {
+  color: $black_25;
+  // @include themify($themes) {
+  //     color: themed("bgColor");
+  // }
+}
+
+.text_primary {
+  color: $primary;
+  // @include themify($themes) {
+  //     color: themed("bgColor");
+  // }
+}
+
+.text_error {
+  color: $error !important;
+  // @include themify($themes) {
+  //     color: themed("bgColor");
+  // }
+}
+
+.border_primary_circle {
+  border-radius: 5rem;
+  border: solid 2px $primary;
+  // @include themify($themes) {
+  //     color: themed("bgColor");
+  // }
+}
+
+.border_primary {
+  border: solid 2px $primary;
+  // @include themify($themes) {
+  //     color: themed("bgColor");
+  // }
+}
+
+.border_secondary {
+  border: solid 2px $secondary;
+  // @include themify($themes) {
+  //     color: themed("bgColor");
+  // }
+}
+
+.table_border {
+  border: solid 1px $table_border !important;
+  // @include themify($themes) {
+  //     color: themed("bgColor");
+  // }
+}
+
+.table_border_50 {
+  border: solid 1px $table_border_50;
+  // @include themify($themes) {
+  //     color: themed("bgColor");
+  // }
+}
+
+.bottom_border {
+  border-bottom: solid 1px $table_border;
+  // @include themify($themes) {
+  //     color: themed("bgColor");
+  // }
+}
+
+.text_primary2 {
+  color: $primary2;
+  // @include themify($themes) {
+  //     color: themed("bgColorSecondary");
+  // }
+}
+
+.text_primary2_75 {
+  color: $primary2_75;
+  // @include themify($themes) {
+  //     color: themed("bgColorSecondary");
+  // }
+}
+
+.gradient_primary {
+  background: $primary-gradient;
+  // @include themify($themes) {
+  //     color: themed("bgColorSecondary");
+  // }
+}
+
+.blue_gradient {
+  background: $blue_gradient !important;
+  // @include themify($themes) {
+  //     color: themed("bgColorSecondary");
+  // }
+}
+
+.sidebar_box_shadow {
+  box-shadow: $sidebar_box_shadow;
+  // @include themify($themes) {
+  //     color: themed("bgColorSecondary");
+  // }
+}
+
+.border_bottom {
+  border-bottom: 1px solid $table_border;
+}
+
+.card_gradient {
+  background: $card_gradient;
+}
+
+.background_set {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+// table global
+// vertical center head and body
+table > thead,
+table > tbody {
+  display: table-header-group;
+  vertical-align: middle !important;
+}

@@ -1,0 +1,36 @@
+.upload_area {
+    .section_upload {
+        border: 0.5px dashed #000;
+        border-radius: 8px;
+        height: 350px;
+        align-items: center;
+        .drag>input {
+            // opacity: 0;
+            position: absolute;
+            border: 2px solid red;
+            width: 70%;
+            height: 100%;
+            cursor: pointer;
+        }
+        img {
+            width: 70%;
+            height: 70%;
+            display: flex;
+            justify-content: flex-end;
+            cursor: pointer;
+        }
+        .upload_button>input {
+            opacity: 0;
+            position: absolute;
+            border: 2px solid red;
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+        }
+    }
+}
+
+// position: absolute;
+// border: 2px solid red;
+// width: 100%;
+// height: 100%;

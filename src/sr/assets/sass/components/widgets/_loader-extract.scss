@@ -1,0 +1,9 @@
+.big_screen_loader {
+    position: fixed;
+    z-index: 2000;
+    .svg_section {
+        background: linear-gradient(to left, #fff 50%, #ebf0f0 50%);
+        width: 600px;
+        height: 366px;
+    }
+}

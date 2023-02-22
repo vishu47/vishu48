@@ -1,0 +1,6 @@
+export const ChevronArrow = '/media/icons/duotone/general/chevron-right.svg'
+export const AiIconAccount = '/media/icons/duotone/general/avatar.svg'
+export const UseCaseFlagIcon = '/media/icons/duotone/abstract/flag.svg'
+export const UseCaseUserIcon = '/media/icons/duotone/abstract/userselect.svg'
+export const UseCaseTargetIcon = '/media/icons/duotone/abstract/target1.svg'
+export const RightArrowIcon = '/media/icons/duotone/abstract/right-arrow.svg'

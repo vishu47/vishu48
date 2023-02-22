@@ -1,0 +1,28 @@
+.layout_footer {
+    border: 1px solid rgba(207, 219, 213, 0.7);
+}
+
+.main_footer {
+    background-color: $footer_dark;
+    li>a {
+        color: $black_50;
+    }
+    p {
+        padding: 20px 0;
+        color: white;
+    }
+    .item_main_footer {
+        margin: 4.5rem 10rem 1rem 10rem;
+    }
+    .border_line {
+        width: 77%;
+        margin: auto;
+        color: $black_75;
+    }
+    .sub_main_header {
+        p {
+            color: $black_50;
+            white-space: pre;
+        }
+    }
+}

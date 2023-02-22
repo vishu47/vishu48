@@ -1,0 +1,60 @@
+.table_container {
+    .row {
+        border-bottom: 1px solid $table_border;
+        input[type="checkbox"] {
+            width: 1.25em;
+            height: 1.25em;
+            background-color: $secondary_75;
+            border: none;
+        }
+        input[type="radio"] {
+            border-radius: 0.25em;
+            width: 1.25em;
+            height: 1.25em;
+            background-color: $secondary_75;
+            border: none;
+        }
+    }
+    .row:last-child {
+        border: none;
+    }
+    .actions ul>li {
+        cursor: pointer;
+    }
+    table>thead {
+        tr>th:first-child,
+        tr>td:first-child {
+            padding-left: 2.5rem;
+            padding-right: 1.75rem;
+            width: 1.25em;
+        }
+    }
+    table>tbody {
+        tr {
+            height: 3.625rem;
+        }
+        tr:last-child {
+            border: none;
+            border-color: transparent;
+        }
+    }
+    table>thead>tr>th,
+    table>tbody>tr>td {
+        vertical-align: middle;
+        input[type="checkbox"] {
+            width: 1.25em;
+            height: 1.25em;
+            background-color: $secondary_75;
+            border: 0.2px solid $primary;
+        }
+        input[type="radio"] {
+            border-radius: 0.25em;
+            width: 1.25em;
+            height: 1.25em;
+            background-color: $secondary_75;
+            border: 0.2px solid $primary;
+        }
+        height: 100%;
+        white-space: pre;
+    }
+}

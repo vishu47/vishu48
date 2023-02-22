@@ -1,0 +1,17 @@
+.uw_004 {
+    input {
+        position: absolute;
+        visibility: hidden;
+    }
+    .uw_005 {
+        svg {
+            @include themify($themes) {
+                color: themed("textColor");
+            }
+        }
+    }
+}
+
+.header.iconBorder {
+    border: solid 2px $bg_color_secondary;
+}

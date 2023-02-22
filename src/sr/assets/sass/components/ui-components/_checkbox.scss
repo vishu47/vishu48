@@ -1,0 +1,16 @@
+.ui-checkbox {
+    input[type="checkbox"] {
+        background-color: $secondary_50;
+        border: none;
+    }
+    input[type="checkbox"]:checked {
+        background-color: $primary !important;
+    }
+    input[type="radion"] {
+        background-color: $secondary_50;
+        border: none;
+    }
+    input[type="radio"]:checked {
+        background-color: $primary !important;
+    }
+}

@@ -1,0 +1,145 @@
+@mixin important-text {
+  background-color: rgb(237, 131, 131);
+}
+
+@for $font-size from 1 through 90 {
+  .font-#{$font-size} {
+    font-size: #{$font-size}px;
+  }
+}
+
+// @for $font-weight from 100 through 900 {
+//   .fonts-#{$font-weight} {
+//     font-weight: #{$font-weight} !important;
+//   }
+// }gap
+
+@for $radius from 1 through 100 {
+  .radius-#{$radius} {
+    border-radius: #{$radius}px !important;
+  }
+}
+
+@for $height from 1 through 1000 {
+  .hx-#{$height} {
+    height: #{$height}px !important;
+  }
+}
+
+@for $width from 1 through 1000 {
+  .wx-#{$width} {
+    width: #{$width}px !important;
+  }
+}
+
+@for $padding from 1 through 100 {
+  .p-#{$padding} {
+    padding: #{$padding}px;
+  }
+}
+
+@for $padding from 1 through 100 {
+  .py-#{$padding} {
+    padding-top: #{$padding}px !important;
+    padding-bottom: #{$padding}px !important;
+  }
+}
+
+@for $padding from 1 through 100 {
+  .px-#{$padding} {
+    padding-left: #{$padding}px !important;
+    padding-right: #{$padding}px !important;
+  }
+}
+
+@for $padding from 1 through 100 {
+  .pt-#{$padding} {
+    padding-top: #{$padding}px !important;
+  }
+}
+
+@for $padding from 0 through 100 {
+  .pb-#{$padding} {
+    padding-bottom: #{$padding}px !important;
+  }
+}
+
+@for $padding from 0 through 100 {
+  .pr-#{$padding} {
+    padding-right: #{$padding}px !important;
+  }
+}
+
+@for $padding from 0 through 100 {
+  .pl-#{$padding} {
+    padding-left: #{$padding}px !important;
+  }
+}
+
+@for $margin from 1 through 100 {
+  .m-#{$margin} {
+    margin: #{$margin}rem !important;
+  }
+}
+
+@for $margin from 1 through 100 {
+  .my-#{$margin} {
+    margin-top: #{$margin}px !important;
+    margin-bottom: #{$margin}px !important;
+  }
+}
+
+@for $margin from 1 through 100 {
+  .mx-#{$margin} {
+    margin-left: #{$margin}px !important;
+    margin-right: #{$margin}px !important;
+  }
+}
+
+@for $margin from 1 through 100 {
+  .mt-#{$margin} {
+    margin-top: #{$margin}px !important;
+  }
+}
+
+@for $margin from 1 through 100 {
+  .mb-#{$margin} {
+    margin-bottom: #{$margin}px !important;
+  }
+}
+
+@for $margin from 1 through 100 {
+  .mr-#{$margin} {
+    margin-right: #{$margin}px !important;
+  }
+}
+
+@for $margin from 1 through 100 {
+  .ml-#{$margin} {
+    margin-left: #{$margin}px !important;
+  }
+}
+
+@for $margin from 1 through 100 {
+  .ml-#{$margin} {
+    margin-left: #{$margin}px !important;
+  }
+}
+
+@for $gap from 1 through 100 {
+  .flex-gap-#{$gap} {
+    gap: #{$gap}px !important;
+  }
+}
+
+@for $rotate from 1 through 360 {
+  .rotate-#{$rotate} {
+    transform: rotate(#{$rotate}deg) !important;
+  }
+}
+
+@for $index from 1 through 360 {
+  .z-index-#{$index} {
+    z-index: #{$index} !important;
+  }
+}

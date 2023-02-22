@@ -1,0 +1,30 @@
+.ai_engines{
+    // ll
+    .header{
+        .tab_section{
+            border-bottom: 1px solid $secondary_30;
+        ul li.active{
+                border-bottom: 2px solid $primary;
+            }
+        ul li{
+                color: $sc_black_70;
+            }
+        }
+    }
+    .list_section{
+        // display: grid;
+        // grid-template-columns: auto auto;
+        .cards{
+            box-shadow: 0px 4px 33px #EFEFEF;
+            .desc{
+                line-height: 22px;
+            }
+        }
+        .tag{
+            span{
+                padding: 3px 8px;
+            }
+        }
+
+    }
+}
