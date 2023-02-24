@@ -1,0 +1,12 @@
+.useases_card_detailed {
+  border: 1px solid $table_border_50;
+  .outer {
+    border-top: solid 4px $secondary_85;
+  }
+  .outer.active {
+    border-top: solid 4px $primary2_50;
+  }
+  .outer:hover {
+    border-top: solid 4px $primary2_50;
+  }
+}

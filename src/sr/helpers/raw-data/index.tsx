@@ -1,0 +1,42 @@
+export const file1 = [
+  {
+    id: '38',
+    name: 'Account Number',
+    x: 20,
+    y: 100,
+    w: 320,
+    h: 23,
+  },
+  {
+    id: '39',
+    name: 'Date',
+    x: 625,
+    y: 90,
+    w: 243,
+    h: 35,
+  },
+  {
+    id: '40',
+    name: 'Amount in words',
+    x: 40,
+    y: 10,
+    w: 150,
+    h: 30,
+  },
+  {
+    id: '41',
+    name: 'Amount in number',
+    x: 40,
+    y: 10,
+    w: 150,
+    h: 30,
+  },
+  {
+    id: '42',
+    name: 'Organization',
+    x: 40,
+    y: 10,
+    w: 150,
+    h: 30,
+  },
+]

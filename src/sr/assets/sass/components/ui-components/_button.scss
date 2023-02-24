@@ -1,0 +1,54 @@
+@import "../../core/base/mixins/theme-variables";
+.ui-button-1 {
+    @include themify($themes) {
+        color: themed("ButtonTextColor");
+        // background-color: themed("ButtonBgColor");
+    }
+    padding: 0.7rem 2.75rem;
+    border-radius: 5rem;
+    font-weight: 700;
+    width: fit-content;
+    span {
+        margin-left: 0.4rem;
+    }
+}
+
+.ui-button-1:active,
+.ui-button-1:hover,
+.ui-button-1:focus {
+    @include themify($themes) {
+        border: solid 2px $primary2;
+        color: themed("ButtonTextColor");
+        background-color: themed("ButtonBgColor");
+        // box-shadow: themed("boxShadowPrimary");
+        // border: solid 2px themed("ButtonTextColor");
+    }
+    border-radius: 5rem;
+}
+
+.ui-button-2 {
+    @include themify($themes) {
+        color: themed("ButtonTextColor");
+        // background-color: themed("ButtonBgColor");
+    }
+    padding: 0.7rem 2.75rem;
+    border-radius: 5rem;
+    font-weight: 700;
+    width: fit-content;
+    span {
+        margin-left: 0.4rem;
+    }
+}
+
+.ui-button-2:active,
+.ui-button-2:hover,
+.ui-button-2:focus {
+    @include themify($themes) {
+        border: solid 2px $primary2;
+        color: themed("ButtonTextColor");
+        background-color: themed("ButtonBgColor");
+        // box-shadow: themed("boxShadowPrimary");
+        // border: solid 2px themed("ButtonTextColor");
+    }
+    border-radius: 5rem;
+}

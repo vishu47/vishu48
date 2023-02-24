@@ -1,0 +1,20 @@
+.pillerofsupport {
+  .why_scnxt {
+    .icon_content.active {
+      border-top: 3px solid $primary2;
+    }
+  }
+  .why_scnxtwhy_scnxt_trext {
+    .description {
+      p {
+        width: 70%;
+      }
+    }
+  }
+  .out_team {
+    .teams_cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+}

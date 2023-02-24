@@ -1,0 +1,29 @@
+@import "../../core/base/mixins/theme-variables";
+.ui_input {
+    @include themify($themes) {
+        color: themed("InputTextColor");
+    }
+    padding: 0.5rem 0.5rem;
+    border: none;
+}
+
+.ui_input:active,
+.ui_input:hover,
+.ui_input:focus {
+    @include themify($themes) {
+        color: themed("InputTextColor");
+        // box-shadow: themed("boxShadowPrimary");
+    }
+    outline: none;
+    border: none;
+    // border-radius: 0.25rem;
+}
+
+input[type="checkbox"]:checked {
+    background-color: $primary;
+}
+
+.ui_input_error {
+    font-size: 12px;
+    color: red;
+}

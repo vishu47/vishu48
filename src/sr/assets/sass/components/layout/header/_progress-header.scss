@@ -1,0 +1,13 @@
+.progress_header_wrapper {
+    display: flex;
+    align-items: center;
+    .element {
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+        .line {
+            border-top: 2px solid #fff;
+            width: 6rem;
+        }
+    }
+}

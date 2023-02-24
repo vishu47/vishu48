@@ -1,0 +1,37 @@
+.uw_011 {
+  .auth_left {
+    // background-color: $primary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+  .auth_right {
+    input {
+      background-color: $bg_color;
+    }
+    .signin_button {
+      background-color: $primary;
+      color: #fff;
+    }
+  }
+}
+
+.user_login {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.155);
+  height: 100vh;
+  // top: 50%;
+  // bottom: 50%;
+  // transform: translate(-25% ,50%);
+  .login_card {
+    // background-color: aqua;
+    height: 75vh;
+    width: 80%;
+    margin: 90px auto;
+  }
+}

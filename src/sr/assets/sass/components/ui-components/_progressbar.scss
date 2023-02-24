@@ -1,0 +1,23 @@
+.ui_progress {
+    .ui_progress_error {
+        .progress-bar {
+            background-color: $error !important;
+        }
+    }
+    .ui_progress_error_bg_40 {
+        background-color: $error_40 !important;
+    }
+    .ui_progress_pending {
+        .progress-bar {
+            background-color: $primary !important;
+        }
+    }
+    .ui_progress_success {
+        .progress-bar {
+            background-color: $error !important;
+        }
+    }
+    p {
+        line-height: 18px;
+    }
+}

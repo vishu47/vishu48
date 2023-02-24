@@ -1,0 +1,16 @@
+.list_upload_file {
+  .border_list {
+    border: 1px solid $secondary_85;
+  }
+  .uploaded {
+    &:hover {
+      background-color: $secondary_35;
+    }
+    .second_circle {
+      position: absolute;
+      top: 50%;
+      left: 40%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}

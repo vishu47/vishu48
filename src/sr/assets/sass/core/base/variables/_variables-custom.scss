@@ -1,0 +1,98 @@
+//
+// To make future updates easier consider overriding the global variables from _variables.bootstrap.scss and _variables.custom.scss for current demo in this file.
+// Note that this file is included first and variables defined in _variables.bootstrap.scss and _variables.custom.scss
+// are not accessible in this file but you can override any global variable as shown below:
+//
+//
+// Card Box Shadow
+//
+$card_box_shadow: 0px 0px 20px 0px rgba(76, 87, 125, 0.02);
+$card_box_shadow_dark: 0px 0px 20px 0px rgba(76, 87, 125, 0.02);
+//
+// custom button color
+//
+$active_background_link_light: rgba(245, 248, 250, 0.7);
+$active_background_link_dark: #4e4e4eb3;
+$active_backgroud_link: #4e4e4eb3;
+//
+// custom colors
+//
+// $bg_color: #d5d9e2;
+$bg_color: #edf0f3;
+//
+$bg_color_primary_50: #f3f6f9;
+//
+$bg_color_secondary: #dae1e5;
+//
+$body_color_light: #f9fafb;
+//
+$header_light: #fff;
+//
+$aside_light: #fff;
+//
+$text_color_dark: #fff;
+$text_color_light: #000;
+$text_color_75: #151521;
+//
+$button_text_light: #fff;
+$button_text_dark: #fff;
+//
+$body_color_dark: #151521;
+//
+$aside_dark: #1e1e2d;
+//
+$header_dark: #1e1e2d;
+//
+$hover_text_color_light: #b0dc00;
+$hover_text_color_dark: #b0dc00;
+//
+$input_text_color: #000;
+//
+$uw_orange_20: #fff4de;
+$uw_orange_50: #ffc140;
+$uw_orange: #ffad00;
+//
+//
+$uw_green_50: #b5f4b0;
+$uw_green: #3fb117;
+//
+// box shadow
+//
+$uw_primary_shadow: 0px 5px 8px -3px rgb(16 16 15 / 57%);
+// $uw_primary_shadow: 0px 2px 5px 2px #b0dc008a;
+$uw_secondary_shadow: 0px 2px 5px 2px #d5d9e2;
+// custome
+$sc_black_70: #868788;
+$secondary: #b2b5b4;
+$secondary_85: #cfdbd5;
+$secondary_75: #ebf0f0;
+$secondary_50: #f8fafb;
+$secondary_35: #f5f5fa;
+$secondary_30: #eeeff2;
+$secondary_25: #f4f4f4;
+$secondary_15: #f7faff;
+$primary: #0473ea;
+$primary2: #38d200;
+$primary2_75: #00d066;
+$primary2_50: #23e33e;
+$model_bg: rgba(5, 5, 1, 0.8);
+$footer_dark: #1d2939;
+$footer_black: #292929;
+$black_85: #0b1856;
+$black_75: #5d5d5b;
+$black_50: #747a80;
+$black_25: #8083a3;
+$table_border: #cfdbd5b2;
+$table_border_50: #e4e6e8;
+$error: #e01e5a;
+$error_40: #f3a5bd;
+$card_gradient: linear-gradient(180deg, #2c3a87 0%, #0061c7 100%);
+$primary-gradient: linear-gradient(
+  90deg,
+  rgba(255, 255, 255, 1) 0%,
+  rgba(222, 237, 255, 1) 100%,
+  rgba(4, 115, 234, 1) 100%,
+  rgba(0, 212, 255, 1) 100%
+);
+$sidebar_box_shadow: 0px 4px 100px rgba(127, 135, 158, 0.25);
+$blue_gradient: linear-gradient(180deg, #2c3a87 0%, #0061c7 100%);

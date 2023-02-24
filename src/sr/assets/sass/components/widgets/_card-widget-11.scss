@@ -1,0 +1,28 @@
+.card_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    .main_card.active .icon{
+        margin: auto;
+        border-radius: 50%;
+        border: 1px solid $primary;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .icon{
+        margin: auto;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main_card:hover .icon{
+        margin: auto;
+        border: 2px solid $primary;
+        color: $primary;
+    }
+    .main_card:hover .text,.main_card.active .text{
+        margin: auto;
+        color: $primary;
+    }
+}

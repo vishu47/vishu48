@@ -1,0 +1,9 @@
+.whole_section_3 {
+    .view_header {
+        padding: 0px 0 20px 0;
+        border-bottom: 1px solid $table_border_50;
+    }
+    .table_border_50 {
+        height: calc(100% - 37px);
+    }
+}

@@ -1,0 +1,28 @@
+.whole_section_2 {
+    .next_cheque_section {
+        li {
+            cursor: pointer;
+            border: solid 1px $secondary;
+        }
+        li:hover {
+            background-color: $primary;
+            color: #fff;
+        }
+    }
+    .table_container_2 {
+        font-size: 14px;
+        font-weight: 400;
+        input[type="checkbox"] {
+            width: 1em;
+            height: 1em;
+            background-color: $secondary_75;
+            border: none;
+        }
+        input[type="checkbox"]:checked {
+            background-color: $primary;
+        }
+        .table_border {
+            height: calc(100% - 70px);
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.sw_main_header {
+    background-color: #000;
+    .container {
+        height: 5.25rem;
+        align-items: center;
+    }
+    .middle {
+        a:active,
+        a.active {
+            color: $primary2;
+        }
+        a {
+            color: #fff;
+        }
+    }
+    .right {
+        .border_right {
+            margin: 0 20px;
+            padding: 4px 20px;
+            border-right: 2px solid #fff;
+        }
+    }
+}
